@@ -13,5 +13,6 @@
         public static string UI_Loading = "Loading_UI";
         public static string UI_Menu = "Menu_UI";
         public static string UI_Scan = "Scan_UI";
+        public static string UI_QRCode = "QRCode_UI";
     }
 }

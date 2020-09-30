@@ -8,11 +8,13 @@ namespace Assets
 
 	public class Scan_UIBase : UIBase
 	{
+		protected RawImage m_CameraImg_RImg;
 		protected Image m_Img_back_Img;
 
 		private void Start()
 		{
-			this.m_Img_back_Img = this.transform.Find("CameraPanel/e_Img_back").GetComponent<Image>();
+			this.m_CameraImg_RImg = this.transform.Find("e_CameraImg").GetComponent<RawImage>();
+			this.m_Img_back_Img = this.transform.Find("CameraUpPanel/e_Img_back").GetComponent<Image>();
 
 			this.AddEventListener();
 		}

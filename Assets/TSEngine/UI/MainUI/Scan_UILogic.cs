@@ -38,7 +38,7 @@ namespace Assets
             isCameraOpen = false;
             UIHelper.RemoveAllClick(m_CameraImg_RImg.gameObject);
 
-           StartCoroutine(CallWebCam());
+            StartCoroutine(CallWebCam());
 
             CameraOpenAct = delegate
             {

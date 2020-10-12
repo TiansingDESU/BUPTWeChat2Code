@@ -27,11 +27,11 @@ namespace Assets
 
             bool isGoIn = Main_UILogic.isGoIn;
             m_Txt_status_Txt.text = isGoIn ? "允许入校" : "允许出校" ;
-            if (String.IsNullOrEmpty(Main_UILogic.College))
+            if (!String.IsNullOrEmpty(Main_UILogic.College))
                 m_Txt_college_Txt.text = Main_UILogic.College;
-            if (String.IsNullOrEmpty(Main_UILogic.Name))
+            if (!String.IsNullOrEmpty(Main_UILogic.Name))
                 m_Txt_name_Txt.text = Main_UILogic.Name;
-            if (String.IsNullOrEmpty(Main_UILogic.StuNo))
+            if (!String.IsNullOrEmpty(Main_UILogic.StuNo))
                 m_Txt_stuNo_Txt.text = Main_UILogic.StuNo;
         }
 

@@ -11,6 +11,7 @@ namespace Assets
 		protected Transform m_grid_Trans;
 		protected Button m_Btn_new_Btn;
 		protected Button m_Btn_load_Btn;
+		protected Text m_Txt_switch_Txt;
 		protected Button m_Btn_exit_Btn;
 
 		private void Start()
@@ -18,19 +19,19 @@ namespace Assets
 			this.m_grid_Trans = this.transform.Find("LeftPanel/ScrollView/Viewport/e_grid").GetComponent<Transform>();
 			this.m_Btn_new_Btn = this.transform.Find("RightPanel/e_Btn_new").GetComponent<Button>();
 			this.m_Btn_load_Btn = this.transform.Find("RightPanel/e_Btn_load").GetComponent<Button>();
+			this.m_Txt_switch_Txt = this.transform.Find("RightPanel/e_Btn_load/e_Txt_switch").GetComponent<Text>();
 			this.m_Btn_exit_Btn = this.transform.Find("RightPanel/e_Btn_exit").GetComponent<Button>();
 
 			this.AddEventListener();
 		}
-
 		public override void OnInit()
 		{
 			base.OnInit();
 		}
 
-		public override void OnShow(System.Object Param)
+		public override void OnShow(System.Object param)
 		{
-			base.OnShow(Param);
+			base.OnShow(param);
 		}
 
 		public override void OnHide()

@@ -331,16 +331,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1224447005}
     m_Modifications:
-    - target: {fileID: 328293268306466537, guid: 480ef63c5359bfe4aaebc4d174670018,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.079956055
-      objectReference: {fileID: 0}
-    - target: {fileID: 328293268306466537, guid: 480ef63c5359bfe4aaebc4d174670018,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 203.8999
-      objectReference: {fileID: 0}
     - target: {fileID: 1614376465468546699, guid: 480ef63c5359bfe4aaebc4d174670018,
         type: 3}
       propertyPath: m_Name
@@ -349,17 +339,7 @@ PrefabInstance:
     - target: {fileID: 1614376465468546699, guid: 480ef63c5359bfe4aaebc4d174670018,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2018309409166144475, guid: 480ef63c5359bfe4aaebc4d174670018,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -178.90002
-      objectReference: {fileID: 0}
-    - target: {fileID: 2018309409166144475, guid: 480ef63c5359bfe4aaebc4d174670018,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -53.69995
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3913641811707497192, guid: 480ef63c5359bfe4aaebc4d174670018,
         type: 3}
@@ -465,16 +445,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5409971031626226089, guid: 480ef63c5359bfe4aaebc4d174670018,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -5.0499268
-      objectReference: {fileID: 0}
-    - target: {fileID: 5409971031626226089, guid: 480ef63c5359bfe4aaebc4d174670018,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 613.8999
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 480ef63c5359bfe4aaebc4d174670018, type: 3}
@@ -1325,6 +1295,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scan_UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317197270117701078, guid: 98dbabe721a539442bc99a87c80574e3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98dbabe721a539442bc99a87c80574e3, type: 3}

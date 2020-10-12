@@ -24,6 +24,9 @@ namespace Assets
             TSTime.TimeChangeBySeconds += OnChangeTime;
 
             m_Txt_opTime_Txt.text = TSTime.CurTime.ToString("yyyy-MM-dd HH:mm:ss");
+
+            bool isGoIn = Main_UILogic.isGoIn;
+            m_Txt_status_Txt.text = isGoIn ? "允许入校" : "允许出校" ;
         }
 
         public override void OnHide()

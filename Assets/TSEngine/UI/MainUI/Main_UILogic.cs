@@ -12,6 +12,9 @@ namespace Assets
 {
     class Main_UILogic : Main_UIBase
     {
+
+        public static bool isGoIn = true;
+
         public override void OnInit()
         {
             base.OnInit();
@@ -20,6 +23,8 @@ namespace Assets
         public override void OnShow(System.Object Param)
         {
             base.OnShow(Param);
+            isGoIn = true;
+            m_Txt_switch_Txt.text = "IN";
         }
 
         private List<GameObject> gridItem;
@@ -45,7 +50,15 @@ namespace Assets
             }
             else if(go== this.m_Btn_load_Btn.gameObject)
             {
-                UIManager.HideUI(Def.UIDef.UI_Main);
+                isGoIn = !isGoIn;
+                if (isGoIn)
+                {
+                    m_Txt_switch_Txt.text = "IN";
+                }
+                else
+                {
+                    m_Txt_switch_Txt.text = "OUT";
+                }
             }
         }
     }
